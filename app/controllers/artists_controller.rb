@@ -3,6 +3,7 @@ class ArtistsController < ApplicationController
   end
 
   def show
+    @artist = artist_from_id
   end
 
   def new
